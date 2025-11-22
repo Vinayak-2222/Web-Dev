@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  cursor: none;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(46, 36, 113, 0.266);
+}
+#cursor{
+    height:20px;
+    position: fixed;
+    transform: translate(-50%,-50%);
+}
+
+
