@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+html,body{
+    height: 100%;
+    width:100%;
+    background-color: black;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*gap: 30px;*/
+    anchor-name: --some-anchor;
+}
+.box{
+    height: 200px;
+    width: 200px;
+}
+.box:hover{
+    anchor-name: --some-anchor;
+}
+.red{
+    background-color: rgb(125, 3, 3);
+    
+}
+.blue{
+    background-color: rgb(2, 2, 133);
+}
+.green{
+    background-color: rgb(8, 61, 8);
+}
+.anchor{
+    background-color: #b9b9b9;
+    border-radius: 10px;
+    bottom: anchor(bottom);
+    right:anchor(right);
+    top:anchor(top);
+    left: anchor(left);
+    pointer-events: none;
+    position: absolute;
+    position-anchor:--some-anchor ;
+    transition: all 0.3s linear;
+    mix-blend-mode: exclusion;
+
+
+}
